@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    font-family: helvetica, arial, sans-serif;
+    width: 70%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color:#2b4696;
+}    
+.menu a{
+    color: white;
+    margin-left: 20px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.menu a:hover{
+    color:black;
+    text-decoration: underline;
+    opacity: 30%;
+}
+
+h3{
+    font-family: helvetica, arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 22% !important;
+    margin-right: 22% !important;
+    /* background-color: blueviolet; */
+
+}
+
+hr{
+    width: 450px;
+    margin: auto;
+    padding: auto;
+}
+
+.container{
+   display: flex;
+   /* background-color: blueviolet; */
+   justify-content: space-between;
+}
+
+.container span{
+    padding: 22% !important;
+    margin-left: 22% !important;
+
+}
+
+.fa-facebook{
+    padding:20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin{
+    background: #007bb5;
+    color: white;
+    padding: 20px;
+    width: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+.fa-instagram{
+    background: #125688;
+    color: white;
+    padding: 20px;
+    width: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+.social-media{
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 13%;
+    border: black 1px solid;
+    padding: 1%;
+    font-family: helvetica, arial, sans-serif;
+}
